@@ -68,7 +68,7 @@ let triple = numero * 3
 console.log("Doble: "+ double + "\n" + "Triple: " + triple);
 
 
-//9
+//10
 let precio = 100
 let descuento = (100*20)/100
 let precioFinal = precio - descuento
