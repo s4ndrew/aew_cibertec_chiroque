@@ -60,11 +60,11 @@ let num3 = 10
 let num4 = 11
 let num5 = 16
 
-if (num3 > num4 || num3 > num5) {
+if (num3 > num4 && num3 > num5) {
    console.log("El mayo es: " + num3)
-} else if (num4 > num3 || num4 > num5){
+} else if (num4 > num3 && num4 > num5){
    console.log("El mayor es: " + num4)
-} else if (num5 > num3 || num5 > num4){
+} else if (num5 > num3 && num5 > num4){
    console.log("El mayor es: " + num5)
 } else {
    console.log("Numeros vacios");
@@ -92,10 +92,10 @@ if (contraseña == 123) {
 }
 
 //10
-let anio = 2015
+let anio = 2000
 
-if (anio / 4 ) {
-   
+if ((anio % 4 === 0 && anio % 100 !== 0) || (anio % 400 === 0) ) {
+   console.log("Bisiesto");
 } else {
-   
+   console.log("No bisiesto");
 }
