@@ -20,7 +20,6 @@ console.log(suma);
 
 //4
 console.log("Ejercicio 4:");
-
 let n = 7
 for (let i = 1; i <= 12; i++) {
     console.log(`${n} x ${i} = ${n * i}`);
